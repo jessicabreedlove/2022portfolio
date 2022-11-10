@@ -10,3 +10,66 @@ fonts
 font-family: 'DM Serif Display', serif; 
 font-family: 'Varela Round', sans-serif;
 */
+
+body {
+  background-image: url('../images/tree-pic.jpg');
+  margin: 0 2%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #bda89d;
+  padding: 10px 0;
+}
+
+.top-logo {
+  width: 100px;
+  border-radius: 20%;
+}
+
+#hamburger-icon {
+  width: 40px;
+  height: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #85716c;
+  width: 75%;
+  padding: 20px;
+  border: solid 2px #bda89d;
+  /* border-radius: 20%; */
+  text-align: center;
+  margin-top: 5%;
+}
+
+#quote {
+  font-size: 1.5em;
+}
+
+#generate-button {
+  font-family: 'DM Serif Display', serif;
+  color: white;
+  background-color: black;
+  padding: 0.5%;
+  font-size: 2em;
+  width: 50%;
+  margin: 5% 0;
+  border-radius: 20%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
